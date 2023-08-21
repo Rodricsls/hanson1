@@ -39,7 +39,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: hanson1.${{ github.sha }}
-        release_name: Tarea 7 Cloud ${{ github.sha }}
+        release_name: hanson1 ${{ github.sha }}
         draft: true
         prerelease: false
 
